@@ -1,0 +1,155 @@
+header {
+    background-image: url("../image/Divina%20Commedia.jpg");
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+header>h1 {
+    color: aliceblue;
+    font-size: 120px;
+}
+
+.container {
+    background-color: #553e49;
+}
+
+article {
+    /*    border: 1px double black;*/
+    margin: 25px;
+    height: 400px;
+    background: #eee;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    overflow: auto;
+}
+
+article>h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: black
+}
+
+article>img {
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+article>p {
+    color: black;
+}
+
+#article2 {
+    display: none;
+}
+
+#article3 {
+    display: none;
+}
+
+#theme-container {
+    text-align: center;
+    background-color: #2f3e39;
+    overflow: hidden;
+    height: 450px;
+}
+
+.theme {
+    width: calc((100% - 150px) / 3);
+    margin: 25px;
+    float: left;
+    padding: 5%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    display: inline-block;
+    border-radius: 5%;
+    height: 400px;
+    color: brown;
+}
+
+.line {
+    width: 42px;
+    height: 1px;
+    background: #96b7de;
+    border: solid 2px #96b7de;
+    margin: 10px 0;
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.theme img {
+    width: 85%;
+    height: 150px;
+}
+
+.theme-title {
+    font-size: 50px;
+}
+
+.theme:hover {
+    background-color: green;
+    transform: scale(1.1, 1.1);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.theme:hover>.line {
+    width: 100%;
+}
+
+#special-container {
+    text-align: center;
+    display: flex;
+    padding: 2%;
+}
+
+.special {
+    width: 45%;
+    float: left;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.special img {
+    width: 100%;
+    transition-duration: 0.4s;
+    border-radius: 5%;
+    height: 400px;
+    opacity: 0.9;
+}
+
+.special>h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    border-bottom: 5px solid #e25555;
+    color: #f7f0e2;
+}
+
+.special:hover>img {
+    transition-duration: 0.3s;
+    transform: scale(1.1, 1.1);
+    filter: alpha(Opacity=70);
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+    transition: all .3s;
+    transition-property: all;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.special:hover>h1 {
+    border: none;
+    color: yellow;
+}

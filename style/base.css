@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header,
+nav,
+section,
+article,
+footer {
+    color: white;
+}
+
+header {
+    background-color: red;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgba(255, 255, 61, 0.72);
+}
+
+.content-container {}
+
+section {
+    background-color: gray;
+}
+
+footer {
+    background-color: black;
+    font-size: 25px;
+    padding-top: 30px;
+    height: 100px;
+}

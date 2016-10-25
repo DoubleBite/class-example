@@ -1,0 +1,40 @@
+.container {
+    overflow: auto;
+    display: flex;
+}
+
+nav {
+    float: left;
+    width: 12%;
+    min-width: 160px;
+    padding: 1em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    height: auto;
+}
+
+li {
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 15px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content-container {
+    float: left;
+    width: 88%;
+}
+
+footer {
+    clear: both;
+}
