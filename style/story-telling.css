@@ -95,7 +95,7 @@ article>p {
 }
 
 .theme:hover {
-    background-color: #2f3e39;
+    background-color: brown;
     transform: scale(1.1, 1.1);
     color: white;
     transition-duration: 0.5s;
