@@ -79,10 +79,6 @@ article>p {
     border: solid 2px #96b7de;
     margin: 10px 0;
     transition: all .3s;
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: initial;
-    transition-delay: initial;
 }
 
 .theme img {
@@ -140,13 +136,8 @@ article>p {
 .special:hover>img {
     transition-duration: 0.3s;
     transform: scale(1.1, 1.1);
-    filter: alpha(Opacity=70);
-    -moz-opacity: 0.3;
     opacity: 0.3;
     transition: all .3s;
-    transition-property: all;
-    transition-timing-function: initial;
-    transition-delay: initial;
 }
 
 .special:hover>h1 {
